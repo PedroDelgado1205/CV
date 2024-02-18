@@ -365,6 +365,80 @@ html{
     0%{width: 0%;}
     100%{width: 90%;}
 }
+
+/*Conocimintos*/
+
+.skills .skill .Java{
+    width: 0%;
+    animation: 2s Java forwards;
+}
+@keyframes Java {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .Python{
+    width: 0%;
+    animation: 2s Python forwards;
+}
+@keyframes Python {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .JavaScrip{
+    width: 0%;
+    animation: 2s JavaScrip forwards;
+}
+@keyframes JavaScrip {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .TypeScript{
+    width: 0%;
+    animation: 2s TypeScript forwards;
+}
+@keyframes TypeScript {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .Kotlin{
+    width: 0%;
+    animation: 2s Kotlin forwards;
+}
+@keyframes Kotlin {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .SQL{
+    width: 0%;
+    animation: 2s SQL forwards;
+}
+@keyframes SQL {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .Pascal{
+    width: 0%;
+    animation: 2s Pascal forwards;
+}
+@keyframes Pascal {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .VisualBasic{
+    width: 0%;
+    animation: 2s VisualBasic forwards;
+}
+@keyframes VisualBasic {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
 /* SECCION CURRICULUM */
 
 div img{
