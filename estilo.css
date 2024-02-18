@@ -37,6 +37,7 @@ html{
     list-style: none;
 }
 .contenedor-header header nav ul li a{
+    font-size: small;
     text-align: none;
     color: #fff;
     margin: 0 15px;

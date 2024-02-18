@@ -33,6 +33,15 @@ function efectoHabilidades(){
         habilidades[7].classList.add("Competencia");
         habilidades[8].classList.add("Creatividad");
         habilidades[9].classList.add("Adaptabilidad");
+        //comocimientos
+        habilidades[10].classList.add("Java");
+        habilidades[11].classList.add("Python");
+        habilidades[12].classList.add("JavaScrip");
+        habilidades[13].classList.add("TypeScript");
+        habilidades[14].classList.add("Kotlin");
+        habilidades[15].classList.add("SQL");
+        habilidades[16].classList.add("Pascal");
+        habilidades[17].classList.add("VisualBasic");
     }
 }
 
