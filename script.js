@@ -40,8 +40,10 @@ function efectoHabilidades(){
         habilidades[13].classList.add("TypeScript");
         habilidades[14].classList.add("Kotlin");
         habilidades[15].classList.add("SQL");
-        habilidades[16].classList.add("Pascal");
-        habilidades[17].classList.add("VisualBasic");
+        habilidades[16].classList.add("Django");
+        habilidades[17].classList.add("Angular");
+        habilidades[18].classList.add("Express");
+        habilidades[19].classList.add("FlutterDart");
     }
 }
 

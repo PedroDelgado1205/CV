@@ -423,22 +423,40 @@ html{
     100%{width: 70%;}
 }
 
-.skills .skill .Pascal{
+.skills .skill .Django{
     width: 0%;
-    animation: 2s Pascal forwards;
+    animation: 2s Django forwards;
 }
-@keyframes Pascal {
+@keyframes Django {
     0%{width: 0%;}
     100%{width: 80%;}
 }
 
-.skills .skill .VisualBasic{
+.skills .skill .Angular{
     width: 0%;
-    animation: 2s VisualBasic forwards;
+    animation: 2s Angular forwards;
 }
-@keyframes VisualBasic {
+@keyframes Angular {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 78%;}
+}
+
+.skills .skill .Express{
+    width: 0%;
+    animation: 2s Express forwards;
+}
+@keyframes Express {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .FlutterDart{
+    width: 0%;
+    animation: 2s FlutterDart forwards;
+}
+@keyframes FlutterDart {
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 /* SECCION CURRICULUM */
 
@@ -680,7 +698,7 @@ div img{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
