@@ -40,11 +40,9 @@
             <h1>PEDRO DELGADO</h1>
             <h2> Bachiller Técnico en servicios de informática  - Tecnólogo Superior En Desarrollo de Software</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-google"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/pedro.delgadobravo.7?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/PedroDelgado1205" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-delgado-32b7b8170/"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
             </div>
         </div>
     </section>
@@ -127,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <button>
+            <button type="button" onclick="window.open('cv_pedrodelgado.pdf', '_blank')">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
@@ -465,11 +463,13 @@
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/GitHub-logo.png" alt="">
-                    <div class="overlay">
-                        <h3>GitHub</h3>
-                        <p>https://github.com/PedroDelgado1205</p>
-                    </div>
+                    <a href="https://github.com/PedroDelgado1205" target="_blank">
+                        <img src="img/GitHub-logo.png" alt="">
+                        <div class="overlay">
+                            <h3>GitHub</h3>
+                            <p>https://github.com/PedroDelgado1205</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -482,15 +482,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="https://formspree.io/f/myzygbdg" method="POST">
+                        <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                        <input type="text" name="telefono" placeholder="Número telefónico" required>
+                        <input type="email" name="email" placeholder="Dirección de correo" required>
+                        <input type="text" name="tema" placeholder="Tema" required>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
@@ -526,11 +528,9 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-google"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/pedro.delgadobravo.7?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/PedroDelgado1205" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-delgado-32b7b8170/"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
         </div>
     </footer>
 
